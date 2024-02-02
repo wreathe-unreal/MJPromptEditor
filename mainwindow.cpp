@@ -31,25 +31,25 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_subjectEdit_textChanged(const QString &arg1)
 {
-    ConstructPrompt(ui);
+    ui->promptEdit->setPlainText(ConstructPrompt(ui));
 }
 
 
 void MainWindow::on_permutationsEdit_textChanged(const QString &arg1)
 {
-    ConstructPrompt(ui);
+    ui->promptEdit->setPlainText(ConstructPrompt(ui));
 }
 
 
 void MainWindow::on_prefixEdit_textChanged(const QString &arg1)
 {
-    ConstructPrompt(ui);
+    ui->promptEdit->setPlainText(ConstructPrompt(ui));
 }
 
 
 void MainWindow::on_suffixEdit_textChanged(const QString &arg1)
 {
-    ConstructPrompt(ui);
+    ui->promptEdit->setPlainText(ConstructPrompt(ui));
 }
 
 
